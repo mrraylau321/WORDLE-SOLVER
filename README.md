@@ -59,18 +59,11 @@ Follow the prompts to:
    - Creates numpy array for character tracking
    - Initializes word filtering system
 
-2. Guess Processing:
-   - Analyzes feedback for each character position
-   - Updates word list based on:
-     - Correct characters (green)
-     - Present characters (yellow)
-     - Absent characters (grey)
-
-3. Fallback Mechanism:
+2. Fallback Mechanism:
    - Handles cases where word isn't in standard list
    - Generates possible combinations based on known information
 
-4. Error Handling:
+3. Error Handling:
    - Implements retry mechanism for API calls
    - Handles connection issues gracefully
 
